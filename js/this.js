@@ -13,12 +13,22 @@ var me = {
 
 // console.log(me.getName());
 
-var myName = function() {
+var myName = function(snack, hobby) {
   var greeting = 'Hello, my name is ' + this.getName();
-  return greeting;
+  var greeting2 = this.getName() + ' loves ' + snack + ' and ' + hobby;
+  console.log(greeting);
+  console.log(greeting2);
 }
 
 // 'this' keyword is now set to the object 'me'
 var logName = myName.bind(me);
 
-console.log(logName());
+console.log(logName('sushi', 'basketball'));
+/**
+ * the JS engine creates a new myName instance and binds me as its 'this' variable
+ *  IT COPIES THE myName FUNCTION
+ * Additionally, we can use the function like an a regular function, so we could update the function to accept parameters
+ * and pass them in
+ */
+
+
