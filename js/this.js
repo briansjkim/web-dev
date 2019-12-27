@@ -50,4 +50,5 @@ var myName = function(snack, hobby) {
 
 // call requires its parameters to be passed in individually (spaced out by commas)
 myName.call(me, 'sushi', 'basketball');
-
+// apply requires its parameters to be passed in in an array
+myName.apply(me, ['sushi', 'basketball']);
