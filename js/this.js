@@ -31,4 +31,23 @@ console.log(logName('sushi', 'basketball'));
  * and pass them in
  */
 
+// CALL AND APPLY
+// can invoke any function and explicitly specify what 'this' should reference within the calling function
+
+var me = {
+  firstName: 'Brian',
+  lastName: 'Kim',
+  getName: function() {
+    var fullName = this.firstName + ' ' + this.lastName;
+    return fullName;
+  }
+}
+
+var myName = function(snack, hobby) {
+  var greeting = this.getName() + ' loves ' + snack + ' and ' + hobby;
+  console.log(greeting);
+}
+
+// call requires its parameters to be passed in individually (spaced out by commas)
+myName.call(me, 'sushi', 'basketball');
 
