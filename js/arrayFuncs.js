@@ -36,6 +36,15 @@ const odds = numbers.filter(num => num % 2 !== 0);
 
 
 // Find
+// returns the VALUE of the first element in the provided array that passes the provided func
+
+// basically like creating for loop and setting an if condition inside it
+var nums = [1, 2, 3, 4, 5];
+const found = nums.find(num => num > 3);
+const notFound = nums.find(num => num < 0);
+
+// console.log(found);
+// console.log(notFound);
 
 // findIndex
 
