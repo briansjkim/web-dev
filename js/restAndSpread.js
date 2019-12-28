@@ -23,3 +23,11 @@ const samePerson = {
 
 // console.log(newPerson);
 // console.log(samePerson);
+
+// rest operator
+// merges the arguments into an array
+var filter = (...args) => {
+  return args.filter(num => num % 2 === 0);
+}
+
+// console.log(filter(1, 2, 3, 5, 1, 6, 1)); // [2, 6]
