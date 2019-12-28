@@ -47,4 +47,12 @@ const notFound = nums.find(num => num < 0);
 // console.log(notFound);
 
 // findIndex
+// returns the INDEX of the first element in the provided array that passes the provided func
+
+var nums = [1, 2, 3, 4, 5];
+const foundIndex = nums.findIndex(num => num > 2);
+const notFoundIndex = nums.findIndex(num => num > 5);
+
+// console.log(foundIndex);
+// console.log(notFoundIndex);
 
