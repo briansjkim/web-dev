@@ -27,6 +27,14 @@ const product = numbers.reduce((acc, curr) => {
 
 // Filter
 
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const evens = numbers.filter(num => num % 2 === 0);
+const odds = numbers.filter(num => num % 2 !== 0);
+
+// console.log(evens);
+// console.log(odds);
+
+
 // Find
 
 // findIndex
