@@ -18,6 +18,7 @@ strong {
 h1 {
   /* padding is the space between the content and its border
   * adds 50px to EACH side
+  * can add padding to one side of an element as well using padding-top, padding-bottom, padding-left, padding-right
   */
   padding: 50px;
 }
