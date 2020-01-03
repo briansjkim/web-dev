@@ -14,3 +14,8 @@ strong {
   */
   /* display: block; */
 }
+
+h1 {
+  /* padding is the space between the content and its border */
+  padding: 50px;
+}
