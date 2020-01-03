@@ -7,5 +7,10 @@ span,
 em,
 strong {
   background-color: #b2d6ff;
-  display: block;
+  /* this changes inline elements to block elements
+  * they'll start their own line and fill the entire width of the browser
+  * HOWEVER, it's not a good idea to do this, so we can just change display: block to display:inline
+  * or just get rid of the display property
+  */
+  /* display: block; */
 }
