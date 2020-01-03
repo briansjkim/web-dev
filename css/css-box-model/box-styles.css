@@ -34,3 +34,18 @@ strong {
   /* inline boxes COMPLETELY IGNORE the top and bottom margins of an element */
   margin: 50px;
 }
+
+.i-b {
+  display: inline-block;
+  width: 100px;
+  height: 160px;
+  padding: 50px;
+}
+
+.i {
+  display: inline;
+  padding: 50px;
+  /* width, height, margin-top and margin-bottom are ignored with display:inline  */
+  width: 100px;
+  height: 160px;
+}
