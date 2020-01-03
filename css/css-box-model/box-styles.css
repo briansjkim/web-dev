@@ -24,3 +24,8 @@ h1 {
   */
   padding: 50px;
 }
+
+p {
+  /* margin is the space between boxes and its surrounding boxes */
+  margin-bottom: 50px;
+}
