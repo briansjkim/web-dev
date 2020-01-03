@@ -29,3 +29,8 @@ p {
   /* margin is the space between boxes and its surrounding boxes */
   margin-bottom: 50px;
 }
+
+strong {
+  /* inline boxes COMPLETELY IGNORE the top and bottom margins of an element */
+  margin: 50px;
+}
