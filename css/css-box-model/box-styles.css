@@ -19,6 +19,7 @@ h1 {
   /* padding is the space between the content and its border
   * adds 50px to EACH side
   * can add padding to one side of an element as well using padding-top, padding-bottom, padding-left, padding-right
+  * you can also add padding vertically and horizontally like: padding: 20px (vertical) 10px (horizontal)
   */
   padding: 50px;
 }
