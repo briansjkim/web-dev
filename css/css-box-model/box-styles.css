@@ -7,4 +7,5 @@ span,
 em,
 strong {
   background-color: #b2d6ff;
+  display: block;
 }
