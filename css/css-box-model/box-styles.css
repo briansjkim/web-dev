@@ -16,6 +16,8 @@ strong {
 }
 
 h1 {
-  /* padding is the space between the content and its border */
+  /* padding is the space between the content and its border
+  * adds 50px to EACH side
+  */
   padding: 50px;
 }
