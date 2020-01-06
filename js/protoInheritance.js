@@ -12,4 +12,7 @@ Hero.prototype.dialogue = function() {
 };
 
 var batman = new Hero("Batman", "Bruce Wayne", "Earth");
+// When the JS engine sees this, it look for the dialogue property inside the batman object
+// when it doesn't find one, it'll look up the prototype chain to batman's parent--Hero.prototype
+// There, it'll find Hero.prototype.dialogue and calls it with a 'this' which is bound to batman
 batman.dialogue();
