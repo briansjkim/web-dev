@@ -21,3 +21,12 @@ function Student(name, studentId) {
 
 Student.prototype = Object.create(Person.prototype);
 Student.prototype.constructor = Student;
+
+// ES6 'inheritance'
+class Student extends Person {
+  constructor(name, studentId) {
+    // use the super keyword to call the parent class
+    super(name);
+    this.studentId = studentId;
+  }
+}
