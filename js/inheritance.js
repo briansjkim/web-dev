@@ -14,6 +14,7 @@ class Person {
 
 // ES5 'inheritance'
 function Student(name, studentId) {
+  // assigns the 'this' value as Student and passes in the input name
   Person.call(this, name);
   this.studentId = studentId;
 }
