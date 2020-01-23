@@ -8,6 +8,18 @@ const tripleNum = numbers.map((num) => {
   return Math.pow(num, 3);
 })
 
+var weapons = ['Broken Candlestick', 'Lead pipe', 'Donut'];
+
+const makeBroken = function (item) {
+  return `broken ${item}`;
+}
+
+var broken = weapons.map((weapon) => {
+  console.log(makeBroken(weapon));
+})
+
+// console.log(broken);
+
 // console.log(doubleNum);
 // console.log(tripleNum);
 
