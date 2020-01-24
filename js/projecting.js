@@ -26,4 +26,14 @@ const videoData = [
 ]
 
 // Filter and then map this data structure to get the names of the final susepcts
+var suspects = videoData.filter((suspects) => {
+  return suspects.present;
+});
+
+// console.log(suspects);
+var suspectNames = suspects.map((suspect) => {
+  return suspect.name;
+})
+
+// console.log(suspectNames);
 
