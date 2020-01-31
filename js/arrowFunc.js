@@ -16,3 +16,12 @@ const userFunctionStore = {
 const user1 = userCreator('Brian', 5);
 const user2 = userCreator('John', 4);
 
+// In order to make this code work, we have to change add1 into an arrow function instead of a regular function
+const userFunctionStore = {
+  increment: function () {
+    const add1 = () => {
+      this.score++;
+    }
+    add1();
+  }
+}
