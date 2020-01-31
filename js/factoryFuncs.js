@@ -8,14 +8,10 @@ function userCreator(name, score) {
   return newUser;
 }
 
-const user1 = userCreator('Brian', 3);
-const user2 = userCreator('Will', 5);
-console.log(user1); // score = 3
-console.log(user2); // score = 5
+const user1 = userCreator('Brian', 3); // score = 3
+const user2 = userCreator('Will', 5); // score = 5
 
 
 user1.increment(); // score = 4
 user2.increment(); // score = 6
 
-console.log(user1);
-console.log(user2);
